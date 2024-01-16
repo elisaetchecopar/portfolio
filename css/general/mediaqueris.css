@@ -1,0 +1,491 @@
+@media (max-width: 1100px) {
+  header {
+    padding: 16px;
+  }
+  header .navbar {
+    width: 100%;
+  }
+  header .puie-nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  header .navbar-brand {
+    order: 2;
+    position: absolute;
+    right: 32vw;
+    top: 8;
+  }
+  header .navbar-toggler {
+    border: none;
+    background-color: white;
+  }
+  header .button.nvbar-togg {
+    background-color: white;
+  }
+  .banner-home {
+    width: 100%;
+  }
+  .hero {
+    display: none;
+    width: 100%;
+    height: 700px;
+  }
+  .hero .foto-principal {
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+    position: absolute;
+    top: 130px;
+    left: 0;
+    z-index: 200;
+    background: none;
+  }
+  .hero .fondo-miguel {
+    width: 80%;
+    height: 400px;
+    object-fit: cover;
+  }
+  .heromobile {
+    margin-top: 50px;
+  }
+  .heromobile img {
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+  }
+  .industria-argentina {
+    display: none;
+    bottom: 80px;
+    left: 1px;
+    z-index: 2;
+  }
+  .industria-argentina .bandera {
+    height: 12px;
+    padding-left: 10px;
+  }
+  .industria-argentina h5 {
+    font-size: 12;
+  }
+  #presentacionProductos {
+    padding: 80px 2px;
+  }
+  #presentacionProductos h2 {
+    font-size: 18px;
+  }
+  #presentacionProductos .primario {
+    padding: 8px 16px;
+    border-radius: 30px;
+  }
+  #presentacionProductos .primario a {
+    font-size: 14px;
+  }
+  #presentacionProductos .fotos-presentacion-productos {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-bottom: 24px;
+  }
+  #presentacionProductos .fotos-presentacion-productos .brie {
+    display: none;
+  }
+  #presentacionProductos .fotos-presentacion-productos .foto-presentacion {
+    width: 33%;
+  }
+  #clientes {
+    padding: 200px 16px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  #clientes p {
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  #clientes .clientes-logos {
+    width: 98%;
+    flex-wrap: wrap;
+  }
+  #clientes .clientes-logos .selva {
+    display: none;
+  }
+  #clientes .clientes-logos .foto-cliente {
+    width: 30%;
+    padding-right: 12px;
+    padding-left: 12px;
+    padding-bottom: 16px;
+  }
+  /* Seccion mayoristas-sobre nosotros mobile */
+  #sobreNosotrosSection {
+    flex-direction: column;
+    width: 100%;
+  }
+  #sobreNosotrosSection .img-sobre-nosotros {
+    width: 100%;
+  }
+  #sobreNosotrosSection .img-sobre-nosotros img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+  }
+  #mayoristaSection {
+    flex-direction: column;
+  }
+  #mayoristaSection .img-mayorista-home {
+    width: 100%;
+    order: 1;
+  }
+  #mayoristaSection .img-mayorista-home img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+  }
+  .nosotros-mayoristas {
+    order: 2;
+    width: 100%;
+    background-color: white;
+  }
+  .nosotros-mayoristas h2 {
+    margin-top: 50px;
+    background-color: white;
+    padding-bottom: 30px;
+  }
+  .nosotros-mayoristas p {
+    background-color: white;
+    padding: 6px 20px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .nosotros-mayoristas button {
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+  /* Arte mobile */
+  #arte {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+  #arte .contenedor-bloque-arte {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+  #arte .contenedor-bloque-arte .texto-raya {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  #arte .contenedor-bloque-arte .texto-raya h2 {
+    text-align: center;
+    display: inline;
+    font-size: 22px;
+  }
+  #arte .contenedor-bloque-arte .texto-raya .raya {
+    display: none;
+  }
+  .fotomobile {
+    padding-bottom: 50px;
+  }
+  .fotomobile img {
+    display: flex;
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+  }
+  #mapa .busca-punto-venta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
+  }
+  #mapa .busca-punto-venta .boton-ver-mapa {
+    display: none;
+    flex-direction: row;
+    color: #B3A1B2;
+    padding-left: 30px;
+    align-content: center;
+  }
+  #mapa .busca-punto-venta .boton-ver-mapa a {
+    display: flex;
+    color: #B3A1B2;
+    text-decoration: none;
+  }
+  #mapa .busca-punto-venta .boton-ver-mapa h6 {
+    display: flex;
+    font-weight: 100;
+    padding-right: 10px;
+  }
+  #mapa .busca-punto-venta .boton-ver-mapa img {
+    position: relative;
+    bottom: 4px;
+  }
+  footer {
+    display: none;
+  }
+  /* Productos mobile */
+  .banner-productos {
+    margin-top: 55px;
+    height: 45%;
+    object-fit: cover;
+    padding-bottom: 40px;
+  }
+  #cards-productos {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  #cards-productos .container .card-puie {
+    margin-bottom: 30px;
+    padding: 32px;
+    border-radius: 8px;
+    border-style: none;
+  }
+  #cards-productos .container .card-puie h4 {
+    padding-bottom: 6px;
+  }
+  #cards-productos .container .card-puie p {
+    padding-bottom: 0px;
+  }
+  #materiaPrima {
+    display: flex;
+    flex-direction: column;
+  }
+  #materiaPrima img {
+    width: 80%;
+    padding-left: 20px;
+    height: auto;
+    object-fit: cover;
+    padding-top: 100px;
+    padding-bottom: 20px;
+  }
+  #materiaPrima .text-materia-prima {
+    padding-top: 2px;
+    padding-left: 20px;
+    padding-right: 16px;
+  }
+  #materiaPrima .text-materia-prima h2 {
+    width: 80%;
+    padding-bottom: 20px;
+  }
+  #materiaPrima .text-materia-prima p {
+    width: 80%;
+    font-size: 18px;
+  }
+  .buttons-productos {
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 80px;
+    padding-top: 50px;
+  }
+  .buttons-productos button {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 16px;
+  }
+  /* Mayoristas */
+  #mayoristaBanner {
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    align-content: center;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  #mayoristaBanner .text-mayorista-banner {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #mayoristaBanner .text-mayorista-banner h3 {
+    padding-bottom: 30px;
+    padding-top: 80px;
+    width: 100%;
+    text-align: center;
+  }
+  #mayoristaBanner .text-mayorista-banner p {
+    padding-bottom: 16px;
+    width: 100%;
+    text-align: center;
+  }
+  #mayoristaBanner .text-mayorista-banner button {
+    width: 70%;
+  }
+  #mayoristaBanner .img-mayoristas-banner {
+    display: flex;
+    width: 100%;
+    position: relative;
+    align-content: center;
+    margin-bottom: 300px;
+  }
+  #mayoristaBanner .img-mayoristas-banner .celular img {
+    width: 35%;
+    height: auto;
+    object-fit: cover;
+    position: absolute;
+    top: 100px;
+    right: 65%;
+    background: none;
+    z-index: 200;
+  }
+  #mayoristaBanner .img-mayoristas-banner .persona-cajas img {
+    width: 70%;
+    height: auto;
+    object-fit: cover;
+    position: absolute;
+    top: 80px;
+    right: 15%;
+    z-index: 20;
+  }
+  #mayoristaBanner .img-mayoristas-banner .gif-mayorista img {
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+    position: absolute;
+    background: none;
+    top: 190px;
+    right: 2px;
+    z-index: 300;
+  }
+  #preguntasMayoristas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: white;
+  }
+  #preguntasMayoristas h2 {
+    background-color: white;
+    padding-bottom: 26px;
+    font-size: 28px;
+  }
+  #preguntasMayoristas .preguntas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 50px;
+  }
+  #preguntasMayoristas .preguntas p {
+    text-align: center;
+    background-color: white;
+  }
+  #preguntasMayoristas .preguntas h6 {
+    text-align: center;
+    background-color: white;
+    padding-bottom: 10px;
+  }
+  #preguntasMayoristas .preguntas a {
+    background-color: white;
+    color: black;
+  }
+  #masPreguntasMayorista {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    padding: 200px 16px;
+  }
+  #masPreguntasMayorista button {
+    margin-left: 0px;
+    width: 70%;
+    align-self: center;
+  }
+  #masPreguntasMayorista h2 {
+    text-align: center;
+    font-size: 32px;
+    padding-bottom: 30px;
+  }
+  /* Preguntas frecuentes */
+  .banner-preguntas-frecuentes {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .banner-preguntas-frecuentes h5 {
+    padding-bottom: 16px;
+  }
+  .banner-preguntas-frecuentes h3 {
+    padding-bottom: 20px;
+    font-size: 32px;
+  }
+  #cierrePreguntasSection {
+    background-color: white;
+  }
+  #cierrePreguntasSection .cierre-preguntas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 0px 16px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+  }
+  #cierrePreguntasSection .cierre-preguntas h6 {
+    margin-bottom: 20px;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  #cierrePreguntasSection .cierre-preguntas p {
+    margin-bottom: 40px;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .contacto {
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 150px;
+    padding-bottom: 150px;
+  }
+  .contacto .contacto-form {
+    width: 100%;
+    margin-left: 0%;
+  }
+  .contacto .contacto-form h2 {
+    margin-bottom: 20px;
+  }
+  .contacto .contacto-form .formulario-contacto {
+    width: 100%;
+  }
+  .contacto .contacto-form button {
+    width: 100%;
+    color: white;
+  }
+  .contacto .contacto-foto {
+    width: 100%;
+    display: flex;
+  }
+  .contacto .contacto-foto img {
+    width: 100%;
+    height: auto;
+    margin-top: 60px;
+  }
+  /* Footer mobile */
+  .derechos-reservados {
+    width: 100%;
+    padding: 18px 16px;
+  }
+  .derechos-reservados p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #98A2B3;
+  }
+}
+
+/*# sourceMappingURL=mediaqueris.css.map */
