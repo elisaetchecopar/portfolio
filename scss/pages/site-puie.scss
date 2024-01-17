@@ -7,6 +7,9 @@
     margin-top: 60px;
     .hi{
         text-align: center;
+        button{
+            margin-top: 12px;
+        }
         h2{
             font-size: 60px;
         }
@@ -17,4 +20,15 @@
     img{
         width: 100%;
     }
+}
+
+
+#projectsSection{
+    .downproject{
+        display: flex;
+        justify-content: space-between;
+        justify-items: center;
+        margin-bottom: 12px;
+    }
+    margin-top: 50px;
 }
