@@ -14,5 +14,8 @@
   justify-items: center;
   margin-bottom: 12px;
 }
+#projectsSection .downproject p {
+  margin-bottom: 0px !important;
+}
 
 /*# sourceMappingURL=preguntas-frecuentes.css.map */

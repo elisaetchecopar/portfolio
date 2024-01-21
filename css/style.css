@@ -228,15 +228,27 @@ footer div {
   align-items: center;
   margin-top: 60px;
 }
+#hero .fondo {
+  position: absolute;
+  width: 20%;
+  top: 22%;
+  right: 40%;
+}
 #hero .hi {
+  z-index: 1000;
   text-align: center;
+  background-color: rgba(255, 0, 0, 0);
+}
+#hero .hi p {
+  background-color: rgba(255, 0, 0, 0);
 }
 #hero .hi h3 {
   font-size: 80px;
+  background-color: rgba(255, 0, 0, 0);
 }
 
 #tools {
-  padding: 200px 60px;
+  padding: 200px 60px 100px 60px;
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -302,6 +314,7 @@ footer div {
   margin-left: 60px;
   margin-right: 60px;
   padding-bottom: 100px;
+  padding-top: 100px;
 }
 #projectsSection .projects {
   display: flex;
@@ -399,41 +412,14 @@ footer div {
   justify-items: center;
   margin-bottom: 12px;
 }
-
-.contacto {
-  display: flex;
-  flex-direction: row;
-  margin-left: 60px;
-  margin-right: 60px;
-  margin-top: 150px;
-  padding-bottom: 150px;
-}
-.contacto .contacto-form {
-  width: 50%;
-  margin-left: 10%;
-}
-.contacto .contacto-form h2 {
-  margin-bottom: 20px;
-}
-.contacto .contacto-form .formulario-contacto {
-  width: 80%;
-}
-.contacto .contacto-form button {
-  width: 100%;
-  color: white;
-}
-.contacto .contacto-foto {
-  width: 50%;
-  display: flex;
-}
-.contacto .contacto-foto img {
-  width: 80%;
-  height: 90%;
-  margin-left: 0%;
-  object-fit: cover;
+#projectsSection .downproject p {
+  margin-bottom: 0px !important;
 }
 
 @media (max-width: 1100px) {
+  main {
+    overflow-x: hidden;
+  }
   header {
     padding: 16px;
   }
@@ -579,227 +565,6 @@ footer div {
   }
   #projectsSection .container .card-puie p {
     padding-bottom: 0px;
-  }
-  #materiaPrima {
-    display: flex;
-    flex-direction: column;
-  }
-  #materiaPrima img {
-    width: 80%;
-    padding-left: 20px;
-    height: auto;
-    object-fit: cover;
-    padding-top: 100px;
-    padding-bottom: 20px;
-  }
-  #materiaPrima .text-materia-prima {
-    padding-top: 2px;
-    padding-left: 20px;
-    padding-right: 16px;
-  }
-  #materiaPrima .text-materia-prima h2 {
-    width: 80%;
-    padding-bottom: 20px;
-  }
-  #materiaPrima .text-materia-prima p {
-    width: 80%;
-    font-size: 18px;
-  }
-  .buttons-productos {
-    flex-direction: column;
-    justify-content: center;
-    padding-bottom: 80px;
-    padding-top: 50px;
-  }
-  .buttons-productos button {
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 16px;
-  }
-  /* Mayoristas */
-  #mayoristaBanner {
-    flex-direction: column;
-    padding-top: 100px;
-    padding-bottom: 200px;
-    align-content: center;
-    padding-left: 16px;
-    padding-right: 16px;
-  }
-  #mayoristaBanner .text-mayorista-banner {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  #mayoristaBanner .text-mayorista-banner h3 {
-    padding-bottom: 30px;
-    padding-top: 80px;
-    width: 100%;
-    text-align: center;
-  }
-  #mayoristaBanner .text-mayorista-banner p {
-    padding-bottom: 16px;
-    width: 100%;
-    text-align: center;
-  }
-  #mayoristaBanner .text-mayorista-banner button {
-    width: 70%;
-  }
-  #mayoristaBanner .img-mayoristas-banner {
-    display: flex;
-    width: 100%;
-    position: relative;
-    align-content: center;
-    margin-bottom: 300px;
-  }
-  #mayoristaBanner .img-mayoristas-banner .celular img {
-    width: 35%;
-    height: auto;
-    object-fit: cover;
-    position: absolute;
-    top: 100px;
-    right: 65%;
-    background: none;
-    z-index: 200;
-  }
-  #mayoristaBanner .img-mayoristas-banner .persona-cajas img {
-    width: 70%;
-    height: auto;
-    object-fit: cover;
-    position: absolute;
-    top: 80px;
-    right: 15%;
-    z-index: 20;
-  }
-  #mayoristaBanner .img-mayoristas-banner .gif-mayorista img {
-    width: 50%;
-    height: auto;
-    object-fit: cover;
-    position: absolute;
-    background: none;
-    top: 190px;
-    right: 2px;
-    z-index: 300;
-  }
-  #preguntasMayoristas {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    background-color: white;
-  }
-  #preguntasMayoristas h2 {
-    background-color: white;
-    padding-bottom: 26px;
-    font-size: 28px;
-  }
-  #preguntasMayoristas .preguntas {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: white;
-    padding: 50px;
-  }
-  #preguntasMayoristas .preguntas p {
-    text-align: center;
-    background-color: white;
-  }
-  #preguntasMayoristas .preguntas h6 {
-    text-align: center;
-    background-color: white;
-    padding-bottom: 10px;
-  }
-  #preguntasMayoristas .preguntas a {
-    background-color: white;
-    color: black;
-  }
-  #masPreguntasMayorista {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
-    padding: 200px 16px;
-  }
-  #masPreguntasMayorista button {
-    margin-left: 0px;
-    width: 70%;
-    align-self: center;
-  }
-  #masPreguntasMayorista h2 {
-    text-align: center;
-    font-size: 32px;
-    padding-bottom: 30px;
-  }
-  /* Preguntas frecuentes */
-  .banner-preguntas-frecuentes {
-    padding-left: 16px;
-    padding-right: 16px;
-  }
-  .banner-preguntas-frecuentes h5 {
-    padding-bottom: 16px;
-  }
-  .banner-preguntas-frecuentes h3 {
-    padding-bottom: 20px;
-    font-size: 32px;
-  }
-  #cierrePreguntasSection {
-    background-color: white;
-  }
-  #cierrePreguntasSection .cierre-preguntas {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-items: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    margin: 0px 16px;
-    margin-bottom: 50px;
-    border-radius: 20px;
-  }
-  #cierrePreguntasSection .cierre-preguntas h6 {
-    margin-bottom: 20px;
-    text-align: center;
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-  #cierrePreguntasSection .cierre-preguntas p {
-    margin-bottom: 40px;
-    text-align: center;
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-  .contacto {
-    display: flex;
-    flex-direction: column;
-    margin-left: 16px;
-    margin-right: 16px;
-    margin-top: 150px;
-    padding-bottom: 150px;
-  }
-  .contacto .contacto-form {
-    width: 100%;
-    margin-left: 0%;
-  }
-  .contacto .contacto-form h2 {
-    margin-bottom: 20px;
-  }
-  .contacto .contacto-form .formulario-contacto {
-    width: 100%;
-  }
-  .contacto .contacto-form button {
-    width: 100%;
-    color: white;
-  }
-  .contacto .contacto-foto {
-    width: 100%;
-    display: flex;
-  }
-  .contacto .contacto-foto img {
-    width: 100%;
-    height: auto;
-    margin-top: 60px;
   }
   /* Footer mobile */
   .derechos-reservados {

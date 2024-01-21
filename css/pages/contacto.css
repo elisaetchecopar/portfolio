@@ -1,34 +1,3 @@
-.contacto {
-  display: flex;
-  flex-direction: row;
-  margin-left: 60px;
-  margin-right: 60px;
-  margin-top: 150px;
-  padding-bottom: 150px;
-}
-.contacto .contacto-form {
-  width: 50%;
-  margin-left: 10%;
-}
-.contacto .contacto-form h2 {
-  margin-bottom: 20px;
-}
-.contacto .contacto-form .formulario-contacto {
-  width: 80%;
-}
-.contacto .contacto-form button {
-  width: 100%;
-  color: white;
-}
-.contacto .contacto-foto {
-  width: 50%;
-  display: flex;
-}
-.contacto .contacto-foto img {
-  width: 80%;
-  height: 90%;
-  margin-left: 0%;
-  object-fit: cover;
-}
+
 
 /*# sourceMappingURL=contacto.css.map */
