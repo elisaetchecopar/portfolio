@@ -22,6 +22,20 @@
     }
 }
 
+#visit{
+    padding-top: 80px;
+    div{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        button{
+            margin-left: 20px;
+        }
+    }
+
+}
+
 
 #projectsSection{
     .downproject{

@@ -20,6 +20,19 @@
   width: 100%;
 }
 
+#visit {
+  padding-top: 80px;
+}
+#visit div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+#visit div button {
+  margin-left: 20px;
+}
+
 #projectsSection {
   margin-top: 50px;
 }
