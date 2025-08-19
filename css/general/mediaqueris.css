@@ -29,66 +29,58 @@
     background-color: #F9F9F9;
   }
   #hero {
-    width: 100%;
-    height: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 60px;
+    margin-top: 80px;
+    height: 60%;
+    object-fit: cover;
+    width: auto;
   }
-  #hero .fondo {
-    display: none;
-  }
-  #hero .hi {
-    z-index: 1000;
-    text-align: center;
-    background-color: rgba(255, 0, 0, 0);
-  }
-  #hero .hi p {
-    background-color: rgba(255, 0, 0, 0);
-  }
-  #hero .hi h3 {
-    font-size: 80px;
-    background-color: rgba(255, 0, 0, 0);
+  #hero .video {
+    height: 100%;
+    object-fit: cover;
+    width: auto;
   }
   .banner-home {
     width: 100%;
   }
   /* Seccion mayoristas-sobre nosotros mobile */
-  #sobreNosotrosSection {
+  #aboutme {
     flex-direction: column;
     width: 100%;
   }
-  #sobreNosotrosSection .img-sobre-nosotros {
+  #aboutme .imgaboutme {
     width: 100%;
   }
-  #sobreNosotrosSection .img-sobre-nosotros img {
+  #aboutme .imgaboutme img {
     width: 100%;
     height: 500px;
     object-fit: cover;
   }
-  .nosotros-mayoristas {
+  #aboutme .textaboutme {
     order: 2;
     width: 100%;
     background-color: white;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
   }
-  .nosotros-mayoristas h2 {
-    margin-top: 50px;
+  #aboutme .textaboutme h2 {
+    margin-top: 20px;
     background-color: white;
   }
-  .nosotros-mayoristas p {
+  #aboutme .textaboutme p {
     background-color: white;
-    padding: 6px 20px;
     font-size: 16px;
     line-height: 1.5;
   }
   #tools {
-    margin-top: 420px;
-    padding: 200px 16px 70px 16px;
+    margin-top: 100px;
+    padding: 100px 16px 70px 16px;
     align-items: center;
     display: flex;
     flex-direction: column;
+    width: 98%;
+    flex-wrap: wrap;
   }
   #tools p {
     text-align: center;
@@ -97,15 +89,13 @@
     padding-right: 20px;
     padding-left: 20px;
   }
-  #tools .clientes-logos {
-    width: 98%;
-    flex-wrap: wrap;
+  #tools .tool {
+    padding-bottom: 16px;
   }
-  #tools .clientes-logos .foto-cliente {
+  #tools .tool img {
     width: 26%;
     padding-right: 12px;
     padding-left: 12px;
-    padding-bottom: 36px;
   }
   footer {
     width: 100%;
@@ -180,6 +170,23 @@
     font-size: 14px;
     font-weight: 400;
     color: #98A2B3;
+  }
+  /* Pages mobile */
+  #cafecitopics {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  #cafecitopics div {
+    display: flex;
+    flex-direction: column;
+  }
+  #cafecitopics img {
+    width: 100%;
+    padding-bottom: 40px;
   }
 }
 
