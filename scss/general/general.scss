@@ -111,3 +111,134 @@ h6{
         transform: translatey(8px);
     }
 }
+
+
+
+
+// Variables
+$black: #000000;
+$text-gray: #848484;
+
+.container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+// ====================
+// BREADCRUMB
+// ====================
+
+.breadcrumb-section {
+    margin-top: 60px;
+
+    .container {
+        padding-left: 60px;
+        padding-right: 60px;
+        padding-top: 80px;
+    }
+}
+
+.project-breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.breadcrumb-link {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: $text-gray;
+    text-decoration: none;
+
+    &:hover {
+        color: darken($text-gray, 10%);
+    }
+}
+
+.breadcrumb-caret {
+    color: $text-gray;
+    flex-shrink: 0;
+}
+
+.breadcrumb-current {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: $black;
+}
+
+// ====================
+// TEXT SECTION
+// ====================
+
+.project-intro {
+    margin-top: 96px;
+    margin-bottom: 96px;
+
+    .container {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+}
+
+.project-intro__content {
+    max-width: 420px;
+
+    h2 {
+        margin: 0 0 16px;
+        font-family: "Inter", sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 1.2;
+        color: $black;
+    }
+
+    p {
+        margin: 0;
+        font-family: "Inter", sans-serif;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 1.5;
+        color: $text-gray;
+    }
+}
+
+// ====================
+// MOBILE
+// ====================
+
+@media (max-width: 768px) {
+    .breadcrumb-section {
+        margin-top: 32px;
+
+        .container {
+            padding-left: 16px;
+            padding-right: 16px;
+        }
+    }
+
+    .project-intro {
+        margin-top: 64px;
+
+        .container {
+            padding-left: 16px;
+            padding-right: 16px;
+        }
+    }
+
+    .project-intro__content {
+        max-width: 100%;
+
+        h2 {
+            font-size: 18px;
+        }
+
+        p {
+            font-size: 16px;
+        }
+    }
+}
