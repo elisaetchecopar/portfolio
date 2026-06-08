@@ -73,29 +73,17 @@
     font-size: 16px;
     line-height: 1.5;
   }
-  #tools {
-    margin-top: 100px;
-    padding: 100px 16px 70px 16px;
-    align-items: center;
+  #tools .clientes-logos {
     display: flex;
-    flex-direction: column;
-    width: 98%;
     flex-wrap: wrap;
-  }
-  #tools p {
-    text-align: center;
-    font-size: 20px;
-    padding-bottom: 30px;
-    padding-right: 20px;
-    padding-left: 20px;
+    justify-content: center;
+    gap: 20px;
+    max-width: 340px;
+    margin: 0 auto;
   }
   #tools .tool {
-    padding-bottom: 16px;
-  }
-  #tools .tool img {
-    width: 26%;
-    padding-right: 12px;
-    padding-left: 12px;
+    width: 80px;
+    padding: 0;
   }
   footer {
     width: 100%;

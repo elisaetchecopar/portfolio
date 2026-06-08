@@ -40,6 +40,10 @@
 }
 
 #tools {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
   width: 100%;
   margin-top: 250px;
   margin-bottom: 250px;
@@ -52,7 +56,11 @@
 }
 #tools .tool {
   width: 100px;
-  padding-left: 20px;
+  padding-left: 0;
+}
+#tools .clientes-logos {
+  display: flex;
+  gap: 24px;
 }
 
 #projectsSection .container {
@@ -60,10 +68,28 @@
 }
 #projectsSection .container img {
   width: 100%;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 #projectsSection .container img:hover {
   width: 99%;
+}
+#projectsSection .container .project-info {
+  text-align: left;
+  padding-bottom: 42px;
+}
+#projectsSection .container .project-info h3 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+  margin: 0 0 4px 0;
+  line-height: 1.3;
+}
+#projectsSection .container .project-info p {
+  font-size: 14px;
+  font-weight: 300;
+  color: #656565;
+  margin: 0;
+  line-height: 1.3;
 }
 
 /*# sourceMappingURL=home.css.map */
